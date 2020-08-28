@@ -57,6 +57,12 @@ export function createEmptyState(): AtemState {
 		},
 		disks: {}
 	}
+	state.audio = {
+		channels: {}
+	}
+	state.fairlight = {
+		inputs: {}
+	}
 
 	return state
 }
